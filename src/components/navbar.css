@@ -1,0 +1,39 @@
+.container {
+  /* background-color: blue; */
+  padding: 0 2.5rem;
+}
+.first-sec {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 0;
+}
+.first-sec a {
+  text-decoration: none;
+  color: #242424;
+  font-family: "Poppins", sans-serif;
+}
+.logo-link {
+  font-size: 1.5rem;
+}
+.logo-link span {
+  color: #36c0df;
+}
+.nav-link * {
+  margin: 1rem;
+}
+
+.nav-link a:hover {
+  color: #36c0df;
+  transition: 0.3s ease-out;
+}
+.signup-link {
+  background: linear-gradient(to right, #1f1d1d, #837d79);
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  border: 1px solid #fff;
+}
+
+.signup-link a {
+  color: #fff;
+}
