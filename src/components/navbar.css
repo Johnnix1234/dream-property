@@ -27,13 +27,16 @@
   color: #36c0df;
   transition: 0.3s ease-out;
 }
-.signup-link {
+.signup-link a {
   background: linear-gradient(to right, #1f1d1d, #837d79);
   padding: 0.5rem 1rem;
   border-radius: 8px;
-  border: 1px solid #fff;
+  border: 1px solid rgb(15, 15, 15);
+  color: #fff;
 }
 
-.signup-link a {
-  color: #fff;
+.signup-link a:hover {
+  color: #36c0df;
+
+  transition: 0.3s ease-out;
 }
