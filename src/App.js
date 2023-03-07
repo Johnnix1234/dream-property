@@ -4,6 +4,7 @@ import Navbar from "./components/navbar";
 import Home from "./components/Home";
 import Property from "./components/property";
 import About from "./components/About";
+import Footer from "./components/footer";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
           <Route path="/property" element={<Property />} />
           <Route path="/about" element={<About />} />
         </Routes>
+        <Footer />
       </div>
     </Router>
   );

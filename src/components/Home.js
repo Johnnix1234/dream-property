@@ -1,3 +1,4 @@
+import "./Home.css";
 import { Link } from "react-router-dom";
 import Data from "./data";
 const Home = () => {
@@ -15,34 +16,51 @@ const Home = () => {
         </div>
         <div className="comp2">
           <p>Want To Find A Home? We Are Ready To help You Find</p>
-          <p>One That Suits Your Lifestyle And Need</p>
+          <p className="comp22">One That Suits Your Lifestyle And Need</p>
         </div>
         <div className="comp3">
-          <button>
+          <Link>
             Get Started <i class="fa-solid fa-circle-arrow-right"></i>
-          </button>
+          </Link>
         </div>
         <div className="comp4">
           <div>
-            <p>1000+</p>
+            <p className="numbers">1000+</p>
             <p>Listed Properties</p>
           </div>
           <div>
-            <p>3400+</p>
+            <p className="numbers">3400+</p>
             <p>Happy customers</p>
           </div>
           <div>
-            <p>120+</p>
+            <p className="numbers">120+</p>
             <p>Awards</p>
           </div>
         </div>
         <div className="comp5">
-          <p>Search for Available Properties</p>
+          <h3>Search for Available Properties</h3>
           <form>
-            <input type="text" placeholder="Location" />
-            <input type="text" placeholder="Property Type" />
-            <input type="text" placeholder="Budget" />
-            <input type="button" value="Search Home" />
+            <div className="input-container">
+              <input type="text" placeholder="Location" />
+              <span>
+                <i class="fa-solid fa-location-dot"></i>
+              </span>
+            </div>
+            <div className="input-container">
+              <input type="text" placeholder="Property Type" />
+              <span>
+                <i class="fa-solid fa-house"></i>
+              </span>
+            </div>
+            <div className="input-container">
+              <input type="text" placeholder="Budget" />
+              <span>
+                <i class="fa-solid fa-sack-dollar"></i>
+              </span>
+            </div>
+            <div className="input-container">
+              <input type="button" value="Search Home" />
+            </div>
           </form>
         </div>
       </div>
