@@ -12,6 +12,7 @@
   text-decoration: none;
   color: #242424;
   font-family: "Poppins", sans-serif;
+  font-weight: 300;
 }
 .logo-link {
   font-size: 1.5rem;
@@ -39,4 +40,10 @@
   color: #36c0df;
 
   transition: 0.3s ease-out;
+}
+a.active {
+  color: #36c0df;
+  font-weight: bold;
+  border-bottom: 2.8px solid #36c0df;
+  border-bottom-right-radius: 4px;
 }
