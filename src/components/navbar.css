@@ -1,6 +1,12 @@
 .container {
   /* background-color: blue; */
-  padding: 0 2.5rem;
+  padding: 0.2rem 2.5rem;
+  /* padding-top: 1rem; */
+  /* margin-bottom: -40px; */
+  background: url(../images/triangle.webp);
+}
+.con {
+  background: #fff;
 }
 .first-sec {
   display: flex;
@@ -15,7 +21,7 @@
   font-weight: 300;
 }
 .logo-link {
-  font-size: 1.5rem;
+  font-size: 2rem;
 }
 .logo-link span {
   color: #36c0df;
@@ -34,12 +40,11 @@
   border-radius: 8px;
   border: 1px solid rgb(15, 15, 15);
   color: #fff;
+  transition: 0.3s ease-out;
 }
 
 .signup-link a:hover {
   color: #36c0df;
-
-  transition: 0.3s ease-out;
 }
 a.active {
   color: #36c0df;

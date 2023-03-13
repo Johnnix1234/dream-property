@@ -1,0 +1,84 @@
+* {
+  line-height: 1rem;
+}
+
+/* .container {
+  background: #fff;
+} */
+.pri {
+  color: #36c0df;
+}
+.img3 a {
+  color: #36c0df;
+  text-decoration: none;
+  transition: 0.3s ease-in-out;
+}
+.img3 a:hover {
+  color: #1f1d1d;
+}
+.start {
+  background: rgb(215, 226, 226);
+  padding-top: 1rem;
+}
+.start > h2 {
+  text-align: center;
+  font-size: 2rem;
+  padding-bottom: 1rem;
+}
+.wid1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.compo1 {
+  text-align: center;
+}
+.compo1 i {
+  font-size: 2rem;
+  border: 2rem;
+}
+.compo1 p {
+  max-width: 15rem;
+}
+.wid2 {
+  background: #fff;
+  padding: 1rem 2rem;
+}
+.wid2 > h2 {
+  font-size: 2rem;
+}
+.wid2 > p {
+  font-size: 2rem;
+}
+.compo5 {
+  display: grid;
+  grid-template-columns: 60% 35%;
+  gap: 2%;
+}
+.img2 img {
+  width: 100%;
+}
+.img3 {
+  width: 100%;
+  border: 1px solid #1f1d1d;
+  padding: 1rem;
+}
+.img3 img {
+  width: 100%;
+}
+.compo6 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.compo6 h2 {
+  font-size: 2rem;
+}
+.compo6 a {
+  color: #1f1d1d;
+  text-decoration: none;
+  transition: 0.3s ease-in-out;
+}
+.compo6 a:hover {
+  color: #36c0df;
+}

@@ -1,9 +1,10 @@
 import "./Home.css";
 import { Link } from "react-router-dom";
 import Data from "./data";
+
 const Home = () => {
   return (
-    <div>
+    <div className="star">
       <div className="widg1">
         <div className="comp1">
           <h2>
@@ -20,7 +21,7 @@ const Home = () => {
         </div>
         <div className="comp3">
           <Link>
-            Get Started <i class="fa-solid fa-circle-arrow-right"></i>
+            Get Started <i class="fa-solid fa-arrow-right-long"></i>
           </Link>
         </div>
         <div className="comp4">
@@ -67,13 +68,15 @@ const Home = () => {
       <div className="widg2">
         <div className="comp6">
           <h2>Our Popular Homes</h2>
-          <Link>Explore all</Link>
+          <Link>
+            Explore all <i class="fa-solid fa-arrow-right-long"></i>
+          </Link>
         </div>
         <div className="comp7">
           {Data.map(({ id, image, firsttext, p1, p2, p3, p4 }) => {
             return (
               <div key={id} className="subcom1">
-                <img src={image} alt="" />
+                <img src={image} alt="" className="img-1" />
                 <h2>{firsttext}</h2>
                 <div className="subsubcom1">
                   <p>{p1}</p>
@@ -81,9 +84,9 @@ const Home = () => {
                   <p>{p3}</p>
                 </div>
                 <div className="subsubcom2">
-                  <button>
+                  <Link>
                     Book now <i class="fa-solid fa-pen-nib"></i>
-                  </button>
+                  </Link>
                   <h3>{p4}</h3>
                 </div>
               </div>
