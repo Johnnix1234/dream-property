@@ -1,9 +1,10 @@
 import { Link } from "react-router-dom";
 import HOUSE1 from "../images/house1.jpeg";
 // import HOUSE3 from "../images/house3.jpeg";
-import HOUSE4 from "../images/hous4.jpeg";
+// import HOUSE4 from "../images/hous4.jpeg";
 import HOUSE5 from "../images/house5.jpeg";
 import CHECK from "../images/check.jpeg";
+import CHECK3 from "../images/check3.jpeg";
 import "./About.css";
 // import MAN1 from "../images/man1.jpeg";
 import MAN2 from "../images/man2.jpeg";
@@ -23,7 +24,7 @@ const About = () => {
               house of your choice
             </p>
           </div>
-          <div className="compo1">
+          <div className="compo14">
             <i class="fa-solid fa-house-circle-xmark"></i>
             <h2>Sell a Home</h2>
             <p>
@@ -31,7 +32,7 @@ const About = () => {
               potential buyers
             </p>
           </div>
-          <div className="compo1">
+          <div className="compo15">
             <i class="fa-solid fa-house-flood-water-circle-arrow-right"></i>
             <h2>Rent Home</h2>
             <p>
@@ -39,7 +40,7 @@ const About = () => {
               suitable for your choice
             </p>
           </div>
-          <div className="compo1">
+          <div className="compo16">
             <i class="fa-solid fa-list-check"></i>
             <h2>List Your Own property</h2>
             <p>
@@ -68,48 +69,50 @@ const About = () => {
               </Link>
             </div>
           </div>
-          <div className="compo6">
-            <div className="head">
-              <h2>What Our client Say </h2>
-              <h2>About US</h2>
+          <div className="compo13">
+            <div className="compo6">
+              <div className="head">
+                <h2>What Our client Say </h2>
+                <h2>About US</h2>
+              </div>
+              <div className="lin">
+                <Link>
+                  View More <i class="fa-solid fa-arrow-right-long"></i>
+                </Link>
+              </div>
             </div>
-            <div className="lin">
-              <Link>
-                View More <i class="fa-solid fa-arrow-right-long"></i>
-              </Link>
-            </div>
-          </div>
-          <div className="compo8">
-            {/* <div className="compo9">
+
+            <div className="compo8">
+              <div className="compo9">
+                <div className="compo10">
+                  <img src={MAN3} alt="MAN3" />
+                </div>
+                <div className="compo11">
+                  <h2>SAMSON MAXWELL</h2>
+                  <p>
+                    A well renowned enterpreneur popularly know for promoting,
+                    advertising and delivering of products to customers
+                  </p>
+                  <h3>CEO Asphalt Industries</h3>
+                </div>
+              </div>
+              <div className="compo9">
+                <div className="compo10">
+                  <img src={MAN2} alt="MAN2" />
+                </div>
+                <div className="compo11">
+                  <h2>JOHN DOE</h2>
+                  <p>
+                    A Software Analyst aimed at improving tech-world inventions
+                    with proven success of over 10000+ projects delivered
+                    accurately to customers
+                  </p>
+                  <h3>CEO Silvertech nig ltd</h3>
+                </div>
+              </div>
+              {/* <div className="compo9">
               <div className="compo10">
                 <img src={MAN1} alt="MAN1" />
-              </div>
-              <div className="compo11">
-                <h2>SAMSON MAXWELL</h2>
-                <p>
-                  A well renowned enterpreneur popularly know for promoting,
-                  advertising and delivering of products to customers
-                </p>
-                <h3>CEO Asphalt Industries</h3>
-              </div>
-            </div> */}
-            <div className="compo9">
-              <div className="compo10">
-                <img src={MAN2} alt="MAN2" />
-              </div>
-              <div className="compo11">
-                <h2>JOHN DOE</h2>
-                <p>
-                  A Software Analyst aimed at improving tech-world inventions
-                  with proven success of over 10000+ projects delivered
-                  accurately to customers
-                </p>
-                <h3>CEO Silvertech nig ltd</h3>
-              </div>
-            </div>
-            <div className="compo9">
-              <div className="compo10">
-                <img src={MAN3} alt="MAN3" />
               </div>
               <div className="compo11">
                 <h2>Richard Ederson</h2>
@@ -119,12 +122,14 @@ const About = () => {
                 </p>
                 <h3>CEO Origin Tech</h3>
               </div>
+            </div> */}
             </div>
           </div>
           <div className="compo7">
+            <h2>Latest News &#38; Blogs</h2>
             <div className="wi1">
               <div className="co1">
-                <img src={HOUSE4} alt="House4" />
+                <img src={CHECK3} alt="house3" />
                 <h4>8 Best Affordable House Arrangement</h4>
                 <p>
                   Get your house at affordaable prices and rates, Scan through
@@ -139,7 +144,7 @@ const About = () => {
               </div>
               <div className="co3">
                 <img src={HOUSE1} alt="House1" />
-                <h4>Top Three Home Luxury Ideas</h4>
+                <h4>Top 3 Home Luxury Ideas</h4>
                 <Link>Read More</Link>
               </div>
             </div>
